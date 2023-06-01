@@ -24,7 +24,7 @@ from window_ops.expanding import expanding_mean
 from window_ops.rolling import rolling_mean
 
 ####Données & Manipulations####
-traffic_df = pd.read_parquet(r'C:\Users\natha\OneDrive\Documents\dev\air_trafic\src\data\traffic_10lines.parquet')
+traffic_df = pd.read_parquet('https://github.com/MaelBE/air_trafic/tree/main/src/data\traffic_10lines.parquet')
 
 (traffic_df
  .groupby(['home_airport', 'paired_airport', 'direction'])
