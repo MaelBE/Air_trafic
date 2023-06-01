@@ -11,7 +11,7 @@ beautifulsoup4==4.11.2
 binaryornot==0.4.4
 bleach==6.0.0
 blinker==1.5
-Bottleneck @ file:///C:/Windows/Temp/abs_3198ca53-903d-42fd-87b4-03e6d03a8381yfwsuve8/croots/recipe/bottleneck_1657175565403/work
+#Bottleneck @ file:///C:/Windows/Temp/abs_3198ca53-903d-42fd-87b4-03e6d03a8381yfwsuve8/croots/recipe/bottleneck_1657175565403/work
 brotlipy==0.7.0
 cachetools==5.3.0
 certifi==2023.5.7
