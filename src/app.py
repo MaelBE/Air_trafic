@@ -4,7 +4,6 @@ from pandas_profiling import ProfileReport
 
 import datetime
 import plotly
-import iplot
 
 import plotly.offline as pyoff
 import plotly.graph_objs as go
@@ -118,8 +117,8 @@ def draw_ts_multiple(df: pd.DataFrame, v1: str, v2: str=None, prediction: str=No
         fillcolor="Gray", opacity=0.5,
         layer="below", line_width=0,
     )
-  if display:
-    pyoff.iplot(fig)
+  #if display:
+    #pyoff.iplot(fig)
   return fig
 
 routes = (traffic_df
