@@ -4,6 +4,7 @@ from pandas_profiling import ProfileReport
 
 import datetime
 import plotly
+import iplot
 
 import plotly.offline as pyoff
 import plotly.graph_objs as go
