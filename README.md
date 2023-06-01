@@ -1,10 +1,19 @@
-Air_Trafic
+airtrafic
 ==============================
 
-Prediction of air trafic by route
+Predict air trafic by routes 
 
 Project Organization
 ------------
+
+Ce qu'il faut retenir sur notre projet :
+1- les données d'une route
+Il est demandé dans les consignes du projet d'afficher les données d'une route. Une route est donc le chemin entre un aéroport de départ et un d'arrivée. Tous les aéroports ne sont pas reliés entre eux. Nous avons fait le choix d'utiliser le data frame routes qui ne contient que les routes existantes entre deux aéroports. Nous avions commencé en cours l'application en laissant l'utilisateur choisir l'aéroport de départ et celui d'arrivée, cependant en choisissant les deux indépendemment, nous pouvons être confrontés à une erreur si le trajet n'existe pas. Nous avons donc pris l'initiative d'améliorer le code afin que l'utilisateur choisisse directement une route qui existe afin de ne pas avoir d'erreur dans l'affichage du graphique ou l'entrainement du modèle.
+
+2- la date de début du forecast
+Lors du cours en classe nous avions crée ce bouton pour choisir la date, cependant, aucune consigne ne demande de la prendre en compte dans le calcul du forecast. Nous avons donc décidé de supprimer ceci de l'application car ce n'est pas utilisé. 
+
+
 
     ├── LICENSE
     ├── Makefile           <- Makefile with commands like `make data` or `make train`
